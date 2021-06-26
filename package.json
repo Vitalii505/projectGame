@@ -1,0 +1,26 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "prebuild": "rimraf ./dist",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitalii505/projectGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitalii505/projectGame/issues"
+  },
+  "homepage": "https://github.com/Vitalii505/projectGame#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "parcel-bundler": "^1.12.5"
+  }
+}
